@@ -86,7 +86,10 @@
 }
 .image1{
     display: flex;
+    justify-content: space-between;
     width: 0;
+    gap: 5px;
+
 }
 #title1{
     font-size: xx-large;
