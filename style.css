@@ -7,6 +7,9 @@
 #first-title{
     /* margin-left: 60%; */
 }
+.part{
+    color: red;
+}
 .upper-info{
     display: flex;
     margin-top: 5%;
@@ -91,7 +94,7 @@
 }
 body{
     background-color: white;
-    margin: 10%;
+    margin: 6%;
 }
 .part{
     
