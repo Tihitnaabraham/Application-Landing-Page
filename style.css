@@ -11,13 +11,30 @@
     display: flex;
     margin-top: 5%;
 }
-.inform{
+.information1{
     margin-left: 50%;
     margin-top: 0%;
     border: 2px;
     padding: 5%;
     background-color: white;
     transform: rotate(20deg);
+}
+.information5{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.information3{
+    border: 2px;
+    padding: 25px;
+    background-color: white;
+    transform: rotate(20deg);
+}
+#login{
+    border: 2px;
+    border-radius: 15px;
+    border-color: black;
+    padding: 25px;
 }
 #apple{
     padding: 20px;
@@ -52,7 +69,7 @@
     text
 }
 .part{
-    color: red;
+    
 }
 body{
     background-color: rgb(212, 226, 221);
@@ -188,4 +205,8 @@ body{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
+.platform{
+    margin-top: 5%;
+    margin-right: 20%;
 }
