@@ -10,31 +10,51 @@
 .upper-info{
     display: flex;
     margin-top: 5%;
+    background-color: rgb(223, 223, 224);
 }
 .information1{
     margin-left: 50%;
-    margin-top: 0%;
+    margin-top: 5%;
     border: 2px;
     padding: 5%;
-    background-color: white;
+    background-color: rgb(251, 252, 255);
     transform: rotate(20deg);
 }
 .information5{
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 15px;
+    background-color: white;
 }
 .information3{
     border: 2px;
-    padding: 25px;
-    background-color: white;
+    padding: 30px 25px;
+    background-color: rgb(250, 245, 245);
     transform: rotate(20deg);
+}
+.information6{
+    border: 2px;
+    padding: 5%;
+    background-color: rgb(247, 243, 243);
+    transform: rotate(20deg);
+    margin-left: 25%;
+    margin-top: -5%;
 }
 #login{
     border: 2px;
     border-radius: 15px;
     border-color: black;
-    padding: 25px;
+    padding: 15px 25px;
+    width: 80%;
+}
+#signup{
+    border: 2px;
+    background-color: rgb(231, 119, 142);
+    padding: 15px 25px;
+    width: 80%;
+    border-radius: 15px;
+
 }
 #apple{
     padding: 20px;
@@ -42,6 +62,7 @@
     background-color: black;
     color: white;
     border-radius: 25px;
+    
 }
 #play{
     padding: 20px;
@@ -66,14 +87,18 @@
 }
 #title1{
     font-size: xx-large;
-    text
+
+}
+body{
+    background-color: white;
+    margin: 10%;
 }
 .part{
     
 }
-body{
-    background-color: rgb(212, 226, 221);
-}
+
+
+
 #sign-up{
     border: 2px;
     padding: 25px;
