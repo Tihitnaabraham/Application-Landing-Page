@@ -1,27 +1,36 @@
-.navigation a{
+.navbar a{
     text-align: center;
     margin-left:10%;
-    gap: 15%;
+    gap: 7%;
     margin-bottom: 5%;
 }
-#first-title{
-    /* margin-left: 60%; */
+.buttons a{
+    margin-left: 90%;
 }
+/* #title{
+    
+} */
 .part{
     color: red;
 }
-.upper-info{
+.information{
     display: flex;
     margin-top: 5%;
-    background-color: rgb(223, 223, 224);
+    background-color: rgb(230, 230, 245);
+    padding: 10%;
+
 }
 .information1{
-    margin-left: 50%;
-    margin-top: 5%;
+    margin-left: 8%;
+
+}
+.information2{
+    margin-left: 20%;
+    /* margin-top: 5%; */
     border: 2px;
-    padding: 5%;
+    padding: 2%;
     background-color: rgb(251, 252, 255);
-    transform: rotate(20deg);
+    transform: rotate(350deg);
 }
 .information5{
     text-align: center;
@@ -45,7 +54,7 @@
     margin-top: -5%;
 }
 #login{
-    border: 2px;
+    border: 2px solid;
     border-radius: 15px;
     border-color: black;
     padding: 15px 25px;
@@ -60,7 +69,7 @@
 
 }
 #apple{
-    padding: 20px;
+    padding: 30px;
     border: 1px;
     background-color: black;
     color: white;
@@ -69,10 +78,10 @@
 }
 #play{
     padding: 20px;
-    border: 1px;
     background-color: white;
     color:black;
     border-radius: 25px;
+    border:1px solid;
 }
 .icons2{
     display: flex;
@@ -92,12 +101,15 @@
 
 }
 #title1{
-    font-size: xx-large;
+    font-size: 50px;
+     /* font-weight: 30px; */
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
 
 }
 body{
     background-color: white;
-    margin: 6%;
+    margin: 2%;
 }
 .part{
     
@@ -147,7 +159,22 @@ body{
 .all-continer{
     display: flex;
     justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+   
 
+}
+.container1{
+   margin-left: 10px;
+   border: 1px solid;
+   border-color: crimson;
+   padding: 20px;
+}
+.container2{
+    margin-left: 20px;
+}
+.container3{
+    margin-left: 30px;
 }
 .titles{
     font-size: xx-large;
@@ -181,6 +208,8 @@ body{
     text-align: center;
     margin-bottom: 7%;
     margin-top: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
 }
 #button{
     background-color: darkslategray;
@@ -200,16 +229,26 @@ body{
     margin-left: 15%;
 }
 .box1{
-    border: 2px;
-    /* padding: 40%; */
+    border: 2px solid;
+    border-color: crimson;
+    padding: 20px;
 }
 .box2{
     margin-right: 15%;
 }
 .img{
     display: flex;
+   
 }
-.information{
+.names1{
+    display: flex;
+    justify-content: space-between;
+}
+.names2{
+    display: flex;
+    gap: 4cm;
+}
+.information7{
     display: flex;
     justify-content: space-between;
 }
@@ -224,7 +263,7 @@ body{
 .big-continer{
     margin-top: 15%;
     border: 2px;
-    padding: 10%;
+    /* padding: %; */
     background-color: rgb(22, 22, 46);
     color: white;
 }
@@ -238,6 +277,34 @@ body{
     list-style-type: none;
 }
 .platform{
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: 20%;
 }
+.box3{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px; */
+    padding: 1%;
+    /* margin-top: 10%; */
+    background-color: black;
+    color: white;
+    margin: 0 auto ;
+    
+}
+.term{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1cm; */
+}
+#policy1{
+    margin-left: 3cm;
+    margin-right: 1cm;
+}
+.line{
+    margin-left: 2cm;
+    margin-top: 0.5cm;
+}
+
+
+
+
